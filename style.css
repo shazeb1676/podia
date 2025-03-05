@@ -7,41 +7,60 @@
 .head {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #e1edf2;
+  padding: 6px 12px;
+
 }
+.head-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+}
+
+
 .podia {
-  font-size: 36px;
+  font-size: 38px;
 }
-.button1 {
+.button-1 {
   padding: 8px 20px;
   background-color: #e1edf2;
   border: none;
   cursor: pointer;
   font-family: 28px;
+  font-size: 13px;
 }
 .button1:hover,
 .btn1:hover {
   transition: 2s;
   background-color: white;
+  border-radius: 12px;
+
 }
 .btn1 {
   padding: 8px 20px;
   background-color: #e1edf2;
   border: none;
   cursor: pointer;
+  font-size: 13px;
 }
 .testimonials1 {
-  display: flex;
-  align-items: center;
-  background-color: #e1edf2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: #e1edf2;   
+}
+.testimonials-2{
+    padding: 70px 0px;
 }
 .h2 {
   font-size: 48px;
 }
+
 .test1 {
   justify-items: center;
-  padding: 30px 30px;
+  padding-left: 78px;
 }
 .para {
   font-size: 20px;
@@ -53,6 +72,7 @@
   color: white;
   cursor: pointer;
   border-radius: 20px;
+  font-size: 13px;
 }
 .btn:hover {
   transition: 2s;
@@ -66,16 +86,29 @@
   color: white;
   border-radius: 20px;
 }
-.h1 {
+.btn2:hover,
+.btn2:visited{
+
+  background-color: #fff;
+  transition-duration: 2s;
+
+}
+.sell-h1 {
   font-size: 48px;
+  color: #06040e;
 }
 .paragraph1 {
   text-align: center;
   padding: 20px 0;
   line-height: normal;
+  padding: 70px 0px;
+}
+.para2-passage{
+  padding: 14px 0px;
 }
 .para2 {
   font-size: 20px;
+  color: #06040e;
 }
 .templates {
   display: grid;
@@ -83,12 +116,14 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 10px 20px;
   justify-content: center;
+  color: #06040e;
 }
 .templates1 {
   background-color: #e1edf2;
   padding: 20px 12px;
   border-radius: 20px;
   line-height: normal;
+  color: #06040e;
 }
 .ionicons {
   font-size: 76px;
@@ -109,12 +144,13 @@
 .h1-heading {
   text-align: center;
   padding: 20px 340px;
+  font-size: 29px;
 }
 .para-heading {
   text-align: center;
-  font-size: 19px;
-
-  color: #10242f;
+  font-size: 36px;
+  padding: 0px 139px;
+  color:#06040e;
 }
 .para-heading-courses {
   text-align: center;
@@ -168,6 +204,11 @@
   margin-left: 39px;
   font-size: 20px;
 }
+.heading-articles{
+   padding: 70px 0px; 
+   background-color:  #e1edf2;
+   padding: 66px 0px;
+}
 .heading-article-h1 {
   text-align: center;
   font-size: 52px;
@@ -202,7 +243,7 @@
 .marketing-article {
   display: flex;
   background-color: #e1edf2;
-  padding: 30px 20px;
+  padding: 95px 20px;
   column-gap: 74px;
 }
 .marketing1 {
@@ -213,14 +254,16 @@
 .marketing-paragraph {
   display: flex;
   gap: 20px;
+  padding: 40px 0px;
+  color: #10242f;
 }
 .marketing-h2 {
-  font-size: 29px;
+  font-size: 40px;
   color: #10242f;
 }
 .marketig-para {
-  font-size: 18px;
-  color: #0c1c24;
+  font-size: 20px;
+  color: #10242f;
 }
 .marketing-arrow {
   font-size: 29px;
@@ -236,10 +279,24 @@
   font-size: 50px;
   color: #10242f;
   cursor: pointer;
+  padding: 40px 20px;
+  column-gap: 152px;
+  background-color: #e1edf2;
+
+}
+.frequently{
+  color: #10242f;
+  font-size: 40px;
+}
+.img-arrow{
+  display: flex;
+  align-items: center;
 }
 .selling {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 40px;
 }
 .selling:hover,
 .selling:visited {
@@ -249,7 +306,13 @@
 .podia-30 {
   text-align: center;
   font-size: 29px;
-  background-color: #e1edf2;
+  background-color: #fff;
+  padding-top: 72px;
+
+}
+.podia-31{
+  background-color:#e1edf2;
+
 }
 .podia-para {
   padding: 0 256px;
@@ -259,6 +322,7 @@
   border-radius: 14px;
   background-color: #10242f;
   color: white;
+  margin-top: 25px;
 }
 
 .list-up {
@@ -298,3 +362,10 @@
 .last-footr:hover {
   cursor: pointer;
 }
+.big-container{
+    padding: 20px 50px;
+}
+.imag-podia{
+    width: 100%;
+}
+
